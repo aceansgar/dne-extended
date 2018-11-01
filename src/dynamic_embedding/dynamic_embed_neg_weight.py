@@ -219,6 +219,7 @@ class NodeEmbedding(object):
                     self.labels_in_neg: batch_labels_in_neg,
                     self.labels_out_neg: batch_labels_out_neg
                     })
+
                 if (i % 1000 == 0):
                     loss = self.loss.eval(
                         {

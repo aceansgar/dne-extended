@@ -28,25 +28,26 @@
         }
     },
     "main_loop":{
-        "func": "dne_dynamic_loop_delete_negative_weight",
+        "func": "dne_dynamic_loop_delete_omit_neg",
         "get_next": {
-            "func": "unweighted_get_neg_weight",
+            "func": "get_next_omit_neg",
             "input_file": "amherst_558_0.25_nw_dynamic_reverse",
             "is_directed": false,
-            "num_new_nodes":200
+            "num_to_del":200,
+            "num_at_least":558
         },
         "dynamic_embedding":{
             "batch_strategy":{
-                "func": "enhance_joint_sampling"
+                "func": "batch_strategy_omit_neg"
             },
             "in_negative_sampling_distribution":{
-                "func": "in_degree_distribution"
+                "func": "in_degree_distribution_omit_neg"
             },
             "out_negative_sampling_distribution":{
-                "func": "out_degree_distribution"
+                "func": "out_degree_distribution_omit_neg"
             },
             "num_modify": 10,
-            "func": "dynamic_embed_neg_weight",
+            "func": "dynamic_embed_omit_neg_embed",
             "batch_size": 300,
             "learn_rate": 0.003,
             "optimizer": "AdamOptimizer",

@@ -5,7 +5,7 @@
         "load_data": {
             "func": "load_unweighted_digraph",
             "is_directed": false,
-            "network_file": "amherst_558_0.25_nw_init"
+            "network_file": "amherst_nw"
         },
         "init_train":{
             "negative_sampling_distribution":{
@@ -15,7 +15,7 @@
                 "func": "weighted_edges_sampling"
             },
             "func": "line",
-            "num_nodes": 558,
+            "num_nodes": 2235,
             "batch_size": 100,
             "learn_rate": 0.003,
             "embedding_size": 20,
@@ -28,10 +28,10 @@
         }
     },
     "main_loop":{
-        "func": "dne_new_loop_enhance",
+        "func": "dne_dynamic_loop_delete_negative_weight",
         "get_next": {
-            "func": "unweighted_get",
-            "input_file": "amherst_558_0.25_nw_dynamic",
+            "func": "unweighted_get_neg_weight",
+            "input_file": "amherst_558_0.25_nw_dynamic_reverse",
             "is_directed": false,
             "num_new_nodes":200
         },
@@ -46,7 +46,7 @@
                 "func": "out_degree_distribution"
             },
             "num_modify": 10,
-            "func": "joint_enhance_optimize",
+            "func": "dynamic_embed_neg_weight",
             "batch_size": 300,
             "learn_rate": 0.003,
             "optimizer": "AdamOptimizer",
