@@ -25,6 +25,7 @@ def loop(params, G, embeddings, weights, metric, output_path, draw):
     dynamic_embeddings = []
     while True:
         num_new = gn.get_next(G)
+        print("nodes_num after get_next:",G.number_of_nodes())
         if num_new == 0:
             break
         st = datetime.datetime.now()

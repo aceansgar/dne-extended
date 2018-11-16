@@ -31,10 +31,10 @@ class GetNext(object):
         print("get_next function begin")
 
         num_nodes_pre = G.number_of_nodes()
-        num_to_del = self.n
+        num_to_del = self.num_to_del
 
         for num in xrange(num_to_del):
-            print("num_to_del loop read file, num:",num)
+            print("num_to_del loop num:",num)
             line = self.f.readline()
             if not line:
                 return num
@@ -44,9 +44,9 @@ class GetNext(object):
                 if not line:
                     return num
                 line = line.strip()
-            u, m = [int(i) for i in line.split()]
+            node_to_del, connected_nodes_num = [int(i) for i in line.split()]
 
-            for i in xrange(m):
+            for i in xrange(connected_nodes_num):
                 line = self.f.readline()
                 line = line.strip()
                 u, v = [int(i) for i in line.split()]
@@ -63,7 +63,7 @@ class GetNext(object):
                     GetNext.dict_del(G.node[u], 'in_degree', 1)
                     G.remove_edge(v,u)
                     G.graph['degree'] -= 1
-            G.remove_node(u)
+            G.remove_node(node_to_del)
 
         print("get_next function done")
         return num_to_del

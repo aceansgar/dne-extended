@@ -45,7 +45,7 @@
             "func": "line",
             "batch_size": 30,
             "learn_rate": 0.003,
-            "embedding_size": 2,
+            "embedding_size": 10,
             "loss_func": "cross_entropy",
             "optimizer": "AdamOptimizer",
             "neighbor_size": 1,
@@ -61,7 +61,7 @@
                 "func" : "logistic",
                 "n_jobs" : 1
             },
-            "ground_truth": "karate_flag.dat",
+            "ground_truth": "dolphins_flag.dat",
             "test_size": 0.3,
             "times": 4
         }

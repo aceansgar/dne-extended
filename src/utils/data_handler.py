@@ -63,9 +63,16 @@ class DataHandler(object):
 
     @staticmethod
     def out_degree_distribution(G, params = None):
-        ret = [0.0] * G.number_of_nodes()
-        for u in G:
+        node_num=G.number_of_nodes()
+        print("out_degree_distribution,node_num=",node_num)
+        ret = [0.0] * node_num
+        for u in range(node_num):
             ret[u] = G.node[u]['out_degree']
+            # except:
+            #     print("error in dh_out_degree_distribution:")
+            #     print(G.nodes())
+
+
         return ret
 
     @staticmethod
