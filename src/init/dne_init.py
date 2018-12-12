@@ -29,7 +29,7 @@ def init(params, metric, output_path, draw):
     dh.append_to_file(time_path, str(ed - st) + "\n")
     with open(output_path + "_init", "w") as f:
         f.write(json.dumps({"embeddings": embeddings.tolist(), "weights": weights.tolist()}))
-    metric(embeddings)
+    metric(embeddings,0)
     draw(embeddings)
     return G, embeddings, weights
 

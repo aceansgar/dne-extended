@@ -133,6 +133,24 @@ class Metric(object):
         acc /= float(params["times"])
         return acc
 
+    @staticmethod
+    def dynamic_flag_classification(X, params,period_id):
+        flag_path_pre=os.path.join(DATA_PATH, params["ground_truth"])
+
+        flag_path=flag_path_pre+"_"+str(period_id)
+
+
+        X_scaled = scale(X)
+        y = dh.load_ground_truth(flag_path)
+        y = y[:len(X)]
+        acc = 0.0
+        for _ in xrange(params["times"]):
+            X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=params["test_size"], stratify=y)
+            clf = getattr(mll, params["classification"]["func"])(X_train, y_train, params["classification"])
+            acc += mll.infer(clf, X_test, y_test)[1]
+        acc /= float(params["times"])
+        return acc
+
 if __name__ == '__main__':
     X = np.random.uniform(-0.1, 0.1, 16).reshape(8, 2)
     drawer = {}

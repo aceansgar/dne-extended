@@ -39,7 +39,7 @@ def init(params, metric, output_path, draw):
     with open(output_path + "_init", "w") as f:
         f.write(json.dumps({"embeddings": embeddings.tolist(), "weights": weights.tolist()}))
     print("dne_init metric begin")
-    metric(embeddings)
+    metric(embeddings,0)
     print("dne_init_metric done")
     draw(embeddings)
     print("dne_init done")

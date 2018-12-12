@@ -38,11 +38,11 @@ def main():
     output_path = os.path.join(metric_path_pre, dh.get_time_str())
     metric_path = output_path + "_metric"
 
-    def metric(embeddings):
+    def metric(embeddings,period_id):
         if "metrics" not in params:
             return
         for metric in params["metrics"]:
-            res = getattr(Metric, metric["func"])(embeddings, metric)
+            res = getattr(Metric, metric["func"])(embeddings, metric,period_id)
             dh.append_to_file(metric_path, str(res) + "\n")
             print res
     dh.symlink(metric_path, os.path.join(metric_path_pre, "new_metric"))

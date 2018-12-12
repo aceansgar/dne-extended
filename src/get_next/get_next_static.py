@@ -10,6 +10,7 @@ class GetNext(object):
         self.is_directed = params["is_directed"]
         self.num_to_del = params["num_to_del"]
         self.num_at_least = params["num_at_least"]
+        self.get_next_times=params["get_next_times"]
         print("get_next init done")
 
     @staticmethod
@@ -29,7 +30,9 @@ class GetNext(object):
 
     def get_next(self, G):
         print("get_next function begin")
-
+        # self.get_next_times-=1
+        # # if self.get_next_times<0:
+        #     return 0
         num_nodes_pre = G.number_of_nodes()
         num_to_del = self.num_to_del
 
@@ -55,13 +58,13 @@ class GetNext(object):
                 # print("node id:" + str(v) + " its in_degree is")
                 GetNext.dict_del(G.node[v], 'in_degree', 1)
                 G.graph['degree'] -= 1
-                G.remove_edge(u,v)
+                #G.remove_edge(u,v)
                 if not self.is_directed and u != v:
                     # print("node id:" + str(v) + " its out_degree is")
                     GetNext.dict_del(G.node[v], 'out_degree', 1)
                     # print("node id:" + str(u) + " its in_degree is")
                     GetNext.dict_del(G.node[u], 'in_degree', 1)
-                    G.remove_edge(v,u)
+                    #G.remove_edge(v,u)
                     G.graph['degree'] -= 1
             G.remove_node(node_to_del)
 

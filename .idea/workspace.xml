@@ -2,11 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f83fd241-4ddf-41d6-9e80-f4f4320be1ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/conf/amherst_line.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/mobile_dne_method2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/mobile_line.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mobile_flag_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mobile_flag_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mobile_flag_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mobile_flag_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mobile_flag_4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mobile_flag_5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mobile_flag_6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mobile_flag_7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mobile_nw" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/dolphins_line.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/dolphins_line.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/amherst_dne_method3_test.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/amherst_dne_method3_test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_delete_omit_neg_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_delete_omit_neg_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dynamic_loop/whole_loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_loop/whole_loop.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/get_next/get_next_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/get_next/get_next_static.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/data_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/data_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/init/dne_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/init/dne_init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/init/dne_init_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/init/dne_init_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/metric.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/metric.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,16 +48,18 @@
     <session id="644782470">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.221" value="1" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,6 +72,12 @@
           <entry key="132771_metric" value="1" />
           <entry key="138536_metric" value="1" />
           <entry key="156226_time" value="1" />
+          <entry key="198426_dynamic" value="1" />
+          <entry key="198426_init" value="1" />
+          <entry key="198426_metric" value="1" />
+          <entry key="198426_time" value="1" />
+          <entry key="242591_metric" value="1" />
+          <entry key="242591_time" value="1" />
           <entry key="251420_metric" value="1" />
           <entry key="25_nw_dynamic" value="3" />
           <entry key="25_nw_dynamic_reverse" value="14" />
@@ -61,6 +85,7 @@
           <entry key="261952_metric" value="4" />
           <entry key="262668_metric" value="1" />
           <entry key="278798_metric" value="3" />
+          <entry key="2_nw_dynamic_reverse" value="3" />
           <entry key="325856_metric" value="2" />
           <entry key="361610_metric" value="3" />
           <entry key="394463_metric" value="1" />
@@ -84,34 +109,37 @@
           <entry key="963511_metric" value="1" />
           <entry key="984952_metric" value="1" />
           <entry key="amherst_nw" value="3" />
-          <entry key="dat" value="14" />
+          <entry key="dat" value="16" />
           <entry key="dolphins_nw" value="6" />
           <entry key="dolphins_nw_pre" value="3" />
-          <entry key="hamilton_nw" value="3" />
-          <entry key="json" value="64" />
-          <entry key="py" value="214" />
+          <entry key="hamilton_nw" value="4" />
+          <entry key="json" value="74" />
+          <entry key="mobile_flag_0" value="1" />
+          <entry key="mobile_flag_4" value="1" />
+          <entry key="py" value="232" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="62" />
-          <entry key="PLAIN_TEXT" value="103" />
-          <entry key="Python" value="214" />
+          <entry key="JSON" value="72" />
+          <entry key="PLAIN_TEXT" value="117" />
+          <entry key="Python" value="232" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dat" value="4" />
           <entry key="dummy" value="17" />
-          <entry key="json" value="1315" />
-          <entry key="py" value="17103" />
+          <entry key="json" value="1524" />
+          <entry key="py" value="17535" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="1315" />
-          <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="17103" />
+          <entry key="JSON" value="1524" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="Python" value="17535" />
         </counts>
       </usages-collector>
     </session>
@@ -119,55 +147,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/dolphins_line.json">
+        <entry file="file://$PROJECT_DIR$/conf/amherst_line.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+            <state relative-caret-position="218">
+              <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dynamic_loop/whole_loop.py">
+        <entry file="file://$PROJECT_DIR$/conf/amherst_dne_method2_test.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="179">
+              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/utils/data_handler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="69" column="44" lean-forward="true" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="683">
               <caret line="65" column="65" selection-start-line="65" selection-start-column="65" selection-end-line="65" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/get_next/get_next_static.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="68" column="25" lean-forward="true" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -193,12 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/batch_strategy/enhance_joint_sampling.py" />
-        <option value="$PROJECT_DIR$/src/dynamic embedding/dynamic_embed_neg_weight.py" />
-        <option value="$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_delete_negative_weight.py" />
-        <option value="$PROJECT_DIR$/src/dynamic embedding/__init__.py" />
-        <option value="$PROJECT_DIR$/src/dynamic_loop/__init__.py" />
-        <option value="$PROJECT_DIR$/src/get_next/unweighted_get_neg_weight.py" />
         <option value="$PROJECT_DIR$/conf/amherst_dne_delete_no_neg_embed.json" />
         <option value="$PROJECT_DIR$/src/dynamic_embedding/dynamic_embed_no_neg_embed.py" />
         <option value="$PROJECT_DIR$/src/get_next/get_next_only_del.py" />
@@ -213,15 +208,12 @@
         <option value="$PROJECT_DIR$/tools/get_input_test.py" />
         <option value="$PROJECT_DIR$/src/batch_strategy/batch_strategy_omit_neg.py" />
         <option value="$PROJECT_DIR$/conf/amherst_dne_delete_omit_neg_embed_test.json" />
-        <option value="$PROJECT_DIR$/src/init/dne_init_test.py" />
         <option value="$PROJECT_DIR$/src/get_next/get_next_omit_neg_test.py" />
-        <option value="$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_delete_omit_neg_test.py" />
         <option value="$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_method1_test.py" />
         <option value="$PROJECT_DIR$/src/get_next/get_next_method1_test.py" />
         <option value="$PROJECT_DIR$/src/batch_strategy/batch_strategy_method1_test.py" />
         <option value="$PROJECT_DIR$/conf/amherst_no_op.json" />
         <option value="$PROJECT_DIR$/src/dynamic_loop/no_op_main_loop.py" />
-        <option value="$PROJECT_DIR$/conf/amherst_dne_method3_test.json" />
         <option value="$PROJECT_DIR$/conf/dolphins_dne_method4&amp;2_test.json" />
         <option value="$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_method4_test.py" />
         <option value="$PROJECT_DIR$/src/batch_strategy/batch_strategy_omit_neg_test.py" />
@@ -239,11 +231,20 @@
         <option value="$PROJECT_DIR$/conf/dolphins_dne_method3_test.json" />
         <option value="$PROJECT_DIR$/conf/hamilton_dne_method4on2_test.json" />
         <option value="$PROJECT_DIR$/conf/dolphins_dne_method4on2_test.json" />
-        <option value="$PROJECT_DIR$/conf/amherst_line.json" />
         <option value="$PROJECT_DIR$/conf/dolphins_line.json" />
+        <option value="$PROJECT_DIR$/conf/amherst_dne_method3_test.json" />
+        <option value="$PROJECT_DIR$/src/utils/data_handler.py" />
+        <option value="$PROJECT_DIR$/data/mobile_nw.dat" />
+        <option value="$PROJECT_DIR$/conf/mobile_line.json" />
+        <option value="$PROJECT_DIR$/src/main.py" />
         <option value="$PROJECT_DIR$/src/get_next/get_next_static.py" />
         <option value="$PROJECT_DIR$/src/dynamic_loop/whole_loop.py" />
-        <option value="$PROJECT_DIR$/src/utils/data_handler.py" />
+        <option value="$PROJECT_DIR$/src/utils/metric.py" />
+        <option value="$PROJECT_DIR$/src/init/dne_init.py" />
+        <option value="$PROJECT_DIR$/src/init/dne_init_test.py" />
+        <option value="$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_delete_omit_neg_test.py" />
+        <option value="$PROJECT_DIR$/conf/mobile_dne_method2.json" />
+        <option value="$PROJECT_DIR$/conf/amherst_line.json" />
       </list>
     </option>
   </component>
@@ -264,7 +265,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,8 +285,7 @@
             <path>
               <item name="code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
               <item name="code_extended_dne" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset_ori" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
@@ -315,18 +314,27 @@
               <item name="code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
               <item name="code_extended_dne" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="init_embedding" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
               <item name="code_extended_dne" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (first_tensorflow_program) (1) &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,10 +346,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\lu\laboratory\dynamic_network_embedding_extending\code_extended_dne\conf" />
+      <recent name="C:\lu\laboratory\dynamic_network_embedding_extending\code_extended_dne\data" />
       <recent name="C:\lu\laboratory\dynamic_network_embedding_extending\code_extended_dne\src\dynamic_loop" />
       <recent name="C:\lu\laboratory\dynamic_network_embedding_extending\code_extended_dne\src\batch_strategy" />
       <recent name="C:\lu\laboratory\dynamic_network_embedding_extending\code_extended_dne\src\get_next" />
-      <recent name="C:\lu\laboratory\dynamic_network_embedding_extending\code_extended_dne\src\dynamic_embedding" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -373,11 +381,11 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23524657" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2489895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -426,116 +434,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/amherst_no_op/2018-10-21-000454.092307_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/amherst_dne_method2_test/2018-10-22-212645.754109_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamic_embedding/dynamic_embed_omit_neg_embed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="208" column="16" selection-start-line="208" selection-start-column="16" selection-end-line="208" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/batch_strategy/batch_strategy_omit_neg_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/amherst_dne_method1_test/2018-10-20-234410.448405_time">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_delete_omit_neg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/dolphins_dne_method1_test/2018-10-23-102104.529880_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/dolphins_no_op/2018-10-21-122617.788102_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/dolphins_no_op.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/dolphins_no_op/2018-10-23-104722.138536_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/amherst_dne_method1_test/2018-10-23-105745.716232_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/amherst_no_op.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/dolphins_dne_method1_test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/hamilton_dne_method1_test/2018-10-23-122647.984952_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/hamilton_nw">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/hamilton_dne_method1_test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/hamilton_no_op/2018-10-23-123602.461665_metric">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/hamilton_no_op.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/amherst_dne_method1_test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/dolphins_dne_method2_test/2018-10-23-130718.262668_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/amherst_dne_method2_test/2018-10-23-132313.251420_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/amherst_no_op/2018-10-23-121438.713426_metric">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/amherst_dne_method2_test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/hamilton_dne_method2_test.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -563,13 +463,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/dolphins_dne_method3_test/2018-10-23-144805.759064_metric">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamic_embedding/dynamic_embed_method3_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3570">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/dolphins_dne_method4on2_test.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -632,20 +525,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/init_embedding/line.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189">
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/init/dne_init.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-189" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/dolphins_dne_method2_test.json">
@@ -655,57 +535,172 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_delete_omit_neg_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-651">
-          <caret line="125" column="5" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conf/dolphins_line.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
+        <state relative-caret-position="987">
           <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.py">
+    <entry file="file://$PROJECT_DIR$/conf/amherst_dne_method3_test.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="65" column="65" selection-start-line="65" selection-start-column="65" selection-end-line="65" selection-end-column="65" />
+        <state relative-caret-position="273">
+          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamic_embedding/dynamic_embed_method3_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/mobile_flag_0">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/mobile_0_0.2_nw_dynamic_reverse" />
+    <entry file="file://$PROJECT_DIR$/src/utils/data_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2260">
+          <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/hamilton_flag.dat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/hamilton_nw">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/get_input.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/mobile_nw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/mobile_flag_4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3717" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/mobile_line/2018-12-10-200709.198426_dynamic">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/mobile_line/2018-12-10-200709.198426_init">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/mobile_line/2018-12-10-200709.198426_metric">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/mobile_line/2018-12-10-200709.198426_time">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/metric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="147" column="12" selection-start-line="147" selection-start-column="12" selection-end-line="147" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/init/dne_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamic_loop/whole_loop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/mobile_line/2018-12-10-202303.242591_time">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/mobile_line/2018-12-10-202303.242591_metric">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/mobile_44_0.2_nw_dynamic_reverse">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_delete_omit_neg.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/mobile_dne_method2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_delete_omit_neg_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2331">
+          <caret line="170" column="42" selection-start-line="170" selection-start-column="42" selection-end-line="170" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#774#1465#0" />
+            <element signature="e#1507#3001#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/init/dne_init_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+          <folding>
+            <element signature="e#38#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/mobile_line.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1239">
+          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/get_next/get_next_static.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="68" column="25" lean-forward="true" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+        <state relative-caret-position="630">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamic_loop/whole_loop.py">
+    <entry file="file://$PROJECT_DIR$/conf/amherst_dne_method2_test.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="179">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/data_handler.py">
+    <entry file="file://$PROJECT_DIR$/conf/amherst_line.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="69" column="44" lean-forward="true" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="218">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="65" column="65" selection-start-line="65" selection-start-column="65" selection-end-line="65" selection-end-column="65" />
         </state>
       </provider>
     </entry>

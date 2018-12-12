@@ -120,7 +120,11 @@ def loop(params, G, embeddings, weights, metric, output_path, draw):
     # print
 
     dynamic_embeddings = []
+    period_id=0
     while True:
+        period_id+=1
+        if period_id>7:
+            break
         print("\n")
         print("dynamic loop new loop begin, to delete some nodes")
         # print("all former nodes:", G.nodes())
@@ -164,7 +168,7 @@ def loop(params, G, embeddings, weights, metric, output_path, draw):
             G.remove_node(nodeid)
         print("dynamic loop new loop delete nodes from graph done")
         print("dynamic loop get metric:")
-        res = metric(embeddings)
+        res = metric(embeddings,period_id)
         print("dynamic loop get metric end")
         draw(embeddings)
         print("dynamic loop draw embed done")
