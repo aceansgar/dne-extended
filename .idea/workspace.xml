@@ -2,61 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f83fd241-4ddf-41d6-9e80-f4f4320be1ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/conf/amherst_dne_delete_omit_neg_embed_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/amherst_dne_method1_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/amherst_dne_method2_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/amherst_dne_method3_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/amherst_no_op.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/dolphins_dne_method1_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/dolphins_dne_method2_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/dolphins_dne_method3_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/dolphins_dne_method4on2_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/dolphins_no_op.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/hamilton_dne_method1_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/hamilton_dne_method2_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/hamilton_dne_method4on2_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/hamilton_no_op.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dolphins_flag.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dolphins_nw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dolphins_nw.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dolphins_nw_pre" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/hamilton_flag.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/hamilton_nw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/batch_strategy/batch_strategy_method3_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/batch_strategy/batch_strategy_omit_neg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/batch_strategy/batch_strategy_omit_neg_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic_embedding/dynamic_embed_method1_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic_embedding/dynamic_embed_method3_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic_embedding/dynamic_embed_omit_neg_embed_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic_loop/alias_table_sampling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_delete_omit_neg_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_method1_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_method3_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_method4_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic_loop/no_op_main_loop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/get_next/get_next_method1_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/get_next/get_next_method3_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/get_next/get_next_omit_neg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/get_next/get_next_omit_neg_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/init/dne_init_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/init_embedding/line_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/get_input_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/process_dolphins.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/amherst_dne_delete_negative_weight.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/amherst_dne_delete_negative_weight.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/amherst_dne_delete_omit_neg_embed.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/amherst_dne_delete_omit_neg_embed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/batch_strategy/enhance_joint_sampling.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/batch_strategy/enhance_joint_sampling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_embedding/dynamic_embed_neg_weight.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_embedding/dynamic_embed_neg_weight.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_embedding/dynamic_embed_omit_neg_embed.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_embedding/dynamic_embed_omit_neg_embed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_delete_negative_weight.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_delete_negative_weight.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_delete_omit_neg.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_delete_omit_neg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/get_next/get_next_only_del.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/batch_strategy/batch_strategy_method1_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/get_next/unweighted_get_line_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/get_next/unweighted_get_line_new.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/get_next/unweighted_get_neg_weight.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/get_next/unweighted_get_neg_weight.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/get_next/unweighted_get_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/get_next/unweighted_get_one.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/init/dne_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/init/dne_init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/data_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/data_handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/get_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/get_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/amherst_line.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/dolphins_line.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/karate10_line.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/mobile_dne_method2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/mobile_line.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic_loop/whole_loop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/get_next/get_next_static.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/amherst_dne_method1_test.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/amherst_dne_method1_test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/amherst_dne_method2_test.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/amherst_dne_method2_test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/amherst_dne_method3_test.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/amherst_dne_method3_test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/amherst_no_op.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/amherst_no_op.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/dolphins_dne_method1_test.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/dolphins_dne_method1_test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/dolphins_dne_method2_test.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/dolphins_dne_method2_test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/dolphins_dne_method3_test.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/dolphins_dne_method3_test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/dolphins_dne_method4on2_test.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/dolphins_dne_method4on2_test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/dolphins_no_op.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/dolphins_no_op.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/hamilton_dne_method1_test.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/hamilton_dne_method1_test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/hamilton_dne_method2_test.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/hamilton_dne_method2_test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/hamilton_dne_method4on2_test.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/hamilton_dne_method4on2_test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/hamilton_no_op.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/hamilton_no_op.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -164,57 +130,67 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1568962825">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="json" value="4" />
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="4" />
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/hamilton_dne_method4on2_test.json">
+        <entry file="file://$PROJECT_DIR$/conf/amherst_line.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+            <state relative-caret-position="399">
+              <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/hamilton_dne_method4on2_test/2018-10-23-151534.941435_metric">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/dolphins_dne_method4on2_test.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/dolphins_dne_method4on2_test/2018-10-23-152349.132771_metric">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_method4_test.py">
+        <entry file="file://$PROJECT_DIR$/src/dynamic_loop/whole_loop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="428">
+              <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
               <folding>
-                <element signature="e#18#28#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dynamic_embedding/dynamic_embed_omit_neg_embed_test.py">
+        <entry file="file://$PROJECT_DIR$/src/get_next/get_next_static.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="217" column="40" selection-start-line="217" selection-start-column="40" selection-end-line="217" selection-end-column="40" />
+            <state relative-caret-position="252">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <element signature="e#201#219#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/amherst_dne_method2_test.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -240,8 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/conf/amherst_dne.json" />
-        <option value="$PROJECT_DIR$/src/get_next/unweighted_get_line_new.py" />
         <option value="$PROJECT_DIR$/src/get_next/unweighted_get_one.py" />
         <option value="$PROJECT_DIR$/conf/amherst_dne_delete_negative_weight.json" />
         <option value="$PROJECT_DIR$/src/batch_strategy/enhance_joint_sampling.py" />
@@ -291,6 +265,8 @@
         <option value="$PROJECT_DIR$/conf/dolphins_dne_method3_test.json" />
         <option value="$PROJECT_DIR$/conf/hamilton_dne_method4on2_test.json" />
         <option value="$PROJECT_DIR$/conf/dolphins_dne_method4on2_test.json" />
+        <option value="$PROJECT_DIR$/src/get_next/get_next_static.py" />
+        <option value="$PROJECT_DIR$/src/dynamic_loop/whole_loop.py" />
       </list>
     </option>
   </component>
@@ -311,62 +287,51 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code_extended_dne" type="462c0819:PsiDirectoryNode" />
+              <item name="static_label_code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="static_label_code_extended_dne" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code_extended_dne" type="462c0819:PsiDirectoryNode" />
+              <item name="static_label_code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="static_label_code_extended_dne" type="462c0819:PsiDirectoryNode" />
               <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code_extended_dne" type="462c0819:PsiDirectoryNode" />
+              <item name="static_label_code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="static_label_code_extended_dne" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code_extended_dne" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code_extended_dne" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="dolphins_dne_method4on2_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code_extended_dne" type="462c0819:PsiDirectoryNode" />
+              <item name="static_label_code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="static_label_code_extended_dne" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code_extended_dne" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic_embedding" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code_extended_dne" type="462c0819:PsiDirectoryNode" />
+              <item name="static_label_code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="static_label_code_extended_dne" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dynamic_loop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code_extended_dne" type="462c0819:PsiDirectoryNode" />
+              <item name="static_label_code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="static_label_code_extended_dne" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="get_next" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="static_label_code_extended_dne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="static_label_code_extended_dne" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="init" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,11 +342,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\lu\laboratory\dynamic_network_embedding_extending\static_label_code_extended_dne\src\get_next" />
+      <recent name="C:\lu\laboratory\dynamic_network_embedding_extending\static_label_code_extended_dne\conf" />
+      <recent name="C:\lu\laboratory\dynamic_network_embedding_extending\static_label_code_extended_dne\src\dynamic_loop" />
       <recent name="C:\lu\laboratory\dynamic_network_embedding_extending\code_extended_dne\conf" />
       <recent name="C:\lu\laboratory\dynamic_network_embedding_extending\code_extended_dne\src\dynamic_loop" />
-      <recent name="C:\lu\laboratory\dynamic_network_embedding_extending\code_extended_dne\src\batch_strategy" />
-      <recent name="C:\lu\laboratory\dynamic_network_embedding_extending\code_extended_dne\src\get_next" />
-      <recent name="C:\lu\laboratory\dynamic_network_embedding_extending\code_extended_dne\src\dynamic_embedding" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -411,8 +376,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33468068" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22312045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -465,73 +431,25 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/conf/amherst_dne_method3_test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_method3_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="84" column="25" lean-forward="true" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/dolphins_nw">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/amherst_dne_method2_test/2018-10-20-184938.261952_metric">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/dolphins_dne_method4on2_test/2018-10-21-221921.689875_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/dolphins_dne_method3_test/2018-10-21-102759.361610_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/amherst_dne_method2_test/2018-10-20-190026.789067_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/amherst_dne_method2_test/2018-10-20-191423.278798_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/amherst_dne_method2_test/2018-10-22-163136.098005_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/amherst_no_op/2018-10-21-000323.325856_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/amherst_no_op/2018-10-21-000130.492463_time">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/amherst_no_op/2018-10-21-000130.492463_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/amherst_no_op/2018-10-20-235918.016612_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/amherst_no_op/2018-10-21-000454.092307_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/res/amherst_dne_method2_test/2018-10-20-184938.261952_metric" />
+    <entry file="file://$PROJECT_DIR$/res/dolphins_dne_method4on2_test/2018-10-21-221921.689875_metric" />
+    <entry file="file://$PROJECT_DIR$/res/dolphins_dne_method3_test/2018-10-21-102759.361610_metric" />
+    <entry file="file://$PROJECT_DIR$/res/amherst_dne_method2_test/2018-10-20-190026.789067_metric" />
+    <entry file="file://$PROJECT_DIR$/res/amherst_dne_method2_test/2018-10-20-191423.278798_metric" />
+    <entry file="file://$PROJECT_DIR$/res/amherst_dne_method2_test/2018-10-22-163136.098005_metric" />
+    <entry file="file://$PROJECT_DIR$/res/amherst_no_op/2018-10-21-000323.325856_metric" />
+    <entry file="file://$PROJECT_DIR$/res/amherst_no_op/2018-10-21-000130.492463_time" />
+    <entry file="file://$PROJECT_DIR$/res/amherst_no_op/2018-10-21-000130.492463_metric" />
+    <entry file="file://$PROJECT_DIR$/res/amherst_no_op/2018-10-20-235918.016612_metric" />
+    <entry file="file://$PROJECT_DIR$/res/amherst_no_op/2018-10-21-000454.092307_metric" />
     <entry file="file://$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_delete_omit_neg_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2436">
           <caret line="125" column="5" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/amherst_dne_method2_test/2018-10-22-212645.754109_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/res/amherst_dne_method2_test/2018-10-22-212645.754109_metric" />
     <entry file="file://$PROJECT_DIR$/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -550,30 +468,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
-          <folding>
-            <element signature="e#130#140#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/amherst_dne_method1_test/2018-10-20-234410.448405_time">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/res/amherst_dne_method1_test/2018-10-20-234410.448405_time" />
     <entry file="file://$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_delete_omit_neg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-315" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/dolphins_dne_method1_test/2018-10-23-102104.529880_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/dolphins_no_op/2018-10-21-122617.788102_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/res/dolphins_dne_method1_test/2018-10-23-102104.529880_metric" />
+    <entry file="file://$PROJECT_DIR$/res/dolphins_no_op/2018-10-21-122617.788102_metric" />
     <entry file="file://$PROJECT_DIR$/conf/dolphins_no_op.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -581,12 +486,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/dolphins_no_op/2018-10-23-104722.138536_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/amherst_dne_method1_test/2018-10-23-105745.716232_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/res/dolphins_no_op/2018-10-23-104722.138536_metric" />
+    <entry file="file://$PROJECT_DIR$/res/amherst_dne_method1_test/2018-10-23-105745.716232_metric" />
     <entry file="file://$PROJECT_DIR$/conf/amherst_no_op.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -601,9 +502,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/hamilton_dne_method1_test/2018-10-23-122647.984952_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/res/hamilton_dne_method1_test/2018-10-23-122647.984952_metric" />
     <entry file="file://$PROJECT_DIR$/data/hamilton_nw">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -614,13 +513,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/hamilton_no_op/2018-10-23-123602.461665_metric">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/res/hamilton_no_op/2018-10-23-123602.461665_metric" />
     <entry file="file://$PROJECT_DIR$/conf/hamilton_no_op.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -642,22 +535,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/dolphins_dne_method2_test/2018-10-23-130718.262668_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/amherst_dne_method2_test/2018-10-23-132313.251420_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/amherst_no_op/2018-10-23-121438.713426_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/amherst_dne_method2_test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/res/dolphins_dne_method2_test/2018-10-23-130718.262668_metric" />
+    <entry file="file://$PROJECT_DIR$/res/amherst_dne_method2_test/2018-10-23-132313.251420_metric" />
+    <entry file="file://$PROJECT_DIR$/res/amherst_no_op/2018-10-23-121438.713426_metric" />
     <entry file="file://$PROJECT_DIR$/conf/hamilton_dne_method2_test.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -665,16 +545,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/hamilton_dne_method2_test/2018-10-23-135415.394463_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/res/hamilton_dne_method2_test/2018-10-23-135415.394463_metric" />
     <entry file="file://$PROJECT_DIR$/src/dynamic_embedding/dynamic_embed_method1_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
-          <folding>
-            <element signature="e#36#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -685,13 +560,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/dolphins_dne_method3_test/2018-10-23-144805.759064_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/res/dolphins_dne_method3_test/2018-10-23-144805.759064_metric" />
     <entry file="file://$PROJECT_DIR$/src/dynamic_embedding/dynamic_embed_method3_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3570">
           <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/hamilton_dne_method4on2_test/2018-10-23-151534.941435_metric" />
+    <entry file="file://$PROJECT_DIR$/res/dolphins_dne_method4on2_test/2018-10-23-152349.132771_metric" />
+    <entry file="file://$PROJECT_DIR$/conf/hamilton_dne_method4on2_test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/dolphins_dne_method4on2_test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_method4_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding>
+            <element signature="e#18#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -705,32 +604,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/hamilton_dne_method4on2_test.json">
+    <entry file="file://$PROJECT_DIR$/conf/amherst_dne_method2_test.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+        <state relative-caret-position="389">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/hamilton_dne_method4on2_test/2018-10-23-151534.941435_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/dolphins_dne_method4on2_test.json">
+    <entry file="file://$PROJECT_DIR$/src/get_next/get_next_static.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/dolphins_dne_method4on2_test/2018-10-23-152349.132771_metric">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamic_loop/dne_dynamic_loop_method4_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="252">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#18#28#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/amherst_line.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamic_loop/whole_loop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

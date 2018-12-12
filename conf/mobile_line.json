@@ -1,0 +1,76 @@
+{
+    "num_nodes": 224,
+    "init":{
+        "func": "dne_init",
+        "load_data": {
+            "func": "load_unweighted_digraph",
+            "is_directed": false,
+            "network_file": "mobile_nw"
+        },
+        "init_train":{
+            "negative_sampling_distribution":{
+                "func": "out_degree_distribution"
+            },
+            "batch_strategy":{
+                "func": "weighted_edges_sampling"
+            },
+            "func": "line",
+            "batch_size": 50,
+            "learn_rate": 0.003,
+            "embedding_size": 20,
+            "loss_func": "cross_entropy",
+            "optimizer": "AdamOptimizer",
+            "neighbor_size": 1,
+             "num_sampled": 4,
+             "negative_distortion": 1.0,
+             "epoch_num": 30001
+        }
+    },
+    "main_loop":{
+        "func": "whole_loop",
+        "get_next": {
+            "func": "get_next_static",
+            "input_file": "mobile_44_0.2_nw_dynamic_reverse",
+            "is_directed": false,
+             "num_to_del":10,
+            "num_at_least":150,
+            "get_next_times":7
+        },
+        "new_embedding":{
+            "negative_sampling_distribution":{
+                "func": "out_degree_distribution"
+            },
+            "batch_strategy":{
+                "func": "weighted_edges_sampling"
+            },
+            "func": "line",
+            "batch_size": 50,
+            "learn_rate": 0.003,
+            "embedding_size": 20,
+            "loss_func": "cross_entropy",
+            "optimizer": "AdamOptimizer",
+            "neighbor_size": 1,
+            "num_sampled": 4,
+            "negative_distortion": 1.0,
+            "epoch_num": 30001
+        }
+    },
+    "metrics":[
+        {
+            "func": "dynamic_flag_classification",
+            "classification": {
+                "func" : "logistic",
+                "n_jobs" : 1
+            },
+            "ground_truth": "mobile_flag",
+            "test_size": 0.3,
+            "times": 4
+        }
+    ],
+    "drawers":[
+        {
+            "func": "draw_circle_2D"
+        }
+    ]
+
+}
